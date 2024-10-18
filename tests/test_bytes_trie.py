@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-
-from __future__ import absolute_import, unicode_literals
-
 import io
 import pickle
 
@@ -10,6 +6,7 @@ import hypothesis.strategies as st
 from hypothesis import assume, given
 
 import marisa_trie
+
 from .utils import text
 
 

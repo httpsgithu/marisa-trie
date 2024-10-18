@@ -2,6 +2,42 @@
 CHANGES
 =======
 
+1.2.1 (2024-10-12)
+------------------
+
+* Publish Python 3.13 wheels (only CPython ones, PyPy ones are skipped until https://github.com/pypa/distutils/issues/283 is fixed).
+* Rebuild Cython wrapper with Cython 3.0.11.
+
+1.2.0 (2024-06-05)
+------------------
+
+* Added Python 3.13 support (#105).
+* Rebuild Cython wrapper with Cython 3.0.10 (#105).
+
+1.1.1 (2024-05-06)
+------------------
+
+* Publish Linux aarch64 wheels (#101).
+
+1.1.0 (2023-10-06)
+------------------
+
+* Added Python 3.12 support.
+
+1.0.0 (2023-09-03)
+------------------
+
+* Dropped Python 2.7, 3.4, 3.5, 3.6 support.
+* Added ``Trie.map()`` (#90).
+* Rebuilt Cython wrapper with Cython 3.0.2.
+* Fixed benchmark documentation typos (#89).
+
+0.8.0 (2023-03-25)
+------------------
+
+* Add ``Trie.iter_prefixes_with_ids()`` method to return ``(prefix, id)`` pairs (#83).
+* Rebuild Cython wrapper with Cython 0.29.33 (#88).
+
 0.7.8 (2022-10-25)
 ------------------
 
